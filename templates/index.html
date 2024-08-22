@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Response Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Welcome to Email Response Tool</h1>
+    <a href="{{ url_for('authorize') }}">Authorize Gmail</a>
+    <p>After authorization, the tool will process your emails.</p>
+</body>
+</html>
